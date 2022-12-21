@@ -1,3 +1,5 @@
+> :exclamation: **Note:**: This is a simplified version of [YouTube Summary with ChatGPT](https://github.com/kazuki-sf/YouTube_Summary_with_ChatGPT). The changes include: removing the *Jump to Current Timestamp* button, adding a Dark Mode, removing branding, and changing some additional styling. Questions about these changes can be directed to me on [Twitter](https://twitter.com/willfeldman3).
+
 # YouTube Summary with ChatGPT
 
 YouTube Summary with ChatGPT is a simple Chrome Extension (manifest v3) that allows you to get both YouTube video transcripts and summary of the video with OpenAI's ChatGPT AI technology. Chrome Extension is available on [Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-youtube-summary/nmmicjeknamkfloonkhhcjmomieiodli).
