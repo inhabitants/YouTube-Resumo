@@ -1,11 +1,12 @@
 "use strict";
 
 console.log("connected...");
-const onInstallURL = "https://glasp.co/youtube-summary";
+const onInstallURL = "https:/youtube.com";
 
 // On Chrome Install
 chrome.runtime.onInstalled.addListener(function (details) {
     if (details.reason === "install") {
-        chrome.tabs.create({ url: onInstallURL });
+        // uncomment to redirect on install
+        // chrome.tabs.create({ url: onInstallURL });
     }
 });
