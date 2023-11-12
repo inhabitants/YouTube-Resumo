@@ -1,8 +1,8 @@
 {
-  "name": "YouTube Summary with ChatGPT",
-  "version": "1.0.0",
+  "name": "Transcrição no Youtube e resumo ChatGPT",
+  "version": "1.0.1",
   "manifest_version": 3,
-  "description": "Use ChatGPT to summarize YouTube videos",
+  "description": "Use o chatGPT para resumir videos de youtube e assim te prover melhor acesso ao conteúdo",
   "background": {
     "service_worker": "background.bundle.js",
     "type": "module"

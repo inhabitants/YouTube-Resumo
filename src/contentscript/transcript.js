@@ -13,7 +13,7 @@ export async function getLangOptionsWithLink(videoId) {
   const captionTracks = captions_json.playerCaptionsTracklistRenderer.captionTracks;
   const languageOptions = Array.from(captionTracks).map(i => { return i.name.simpleText; })
   
-  const first = "English"; // Sort by English first
+  const first = "Português (Brasil)"; // Sort by English first
   languageOptions.sort(function(x,y){ return x.includes(first) ? -1 : y.includes(first) ? 1 : 0; });
   languageOptions.sort(function(x,y){ return x == first ? -1 : y == first ? 1 : 0; });
 

@@ -1,46 +1,32 @@
-> :exclamation: **Note:** This is a simplified version of [YouTube Summary with ChatGPT](https://github.com/kazuki-sf/YouTube_Summary_with_ChatGPT). The changes include: removing the *Jump to Current Timestamp* button, adding a Dark Mode, removing branding, and changing some additional styling. Questions about these changes can be directed to me on [Twitter](https://twitter.com/willfeldman3).
+# Resumo do YouTube com ChatGPT
 
-# YouTube Summary with ChatGPT
+"Resumo do YouTube com ChatGPT" é uma extensão para Chrome que permite obter transcrições de vídeos do YouTube e resumos via tecnologia AI do ChatGPT da OpenAI, com atualizações recentes para atender especificamente ao público brasileiro.
 
-YouTube Summary with ChatGPT is a simple Chrome Extension that allows you to get both YouTube video transcripts and summary of the video with OpenAI's ChatGPT AI technology.
+## Como Instalar
 
-## How to Install
+Para instalar esta extensão, siga os passos abaixo:
 
-To install this extension, follow these steps:
+1. Baixe o código no [GitHub](https://github.com/inhabitants/YouTube-Resumo).
+2. Descompacte o arquivo baixado.
+3. Abra o código no seu IDE favorito, como o VS Code.
+4. Execute `npm install` no terminal para instalar as dependências.
+5. Execute `npm run build` ou `npm run build-release` para usar o webpack e gerar a pasta **dist**.
+6. No Chrome, abra a página de Extensões (`chrome://extensions/`).
+7. Ative o modo Desenvolvedor e selecione `Carregar sem compactação` para escolher a pasta **dist**.
+8. A extensão "Resumo do YouTube com ChatGPT" será instalada e ativada!
 
-1. Download the code on GitHub.
-2. Unzip the downloaded file.
-3. Open the code in your favorite IDE like VS Code.
-4. Run `npm install` in terminal
-```
-npm install
-```
-5. Run `npm run build` or `npm run build-release` to run webpack to generate **dist** folder.
-```
-npm run build
-# or
-npm run build-release
-```
-6. In case of Google Chrome, open the Extensions page (chrome://extensions/).
-7. Turn on Developer mode by clicking the toggle switch in the top right corner of the page.
-8. Click the `Load unpacked` button and select the **dist** directory.
-9. YouTube Summary with ChatGPT extension should be installed and active!
+## Como Usar
 
-## How to Use
+1. Visite vídeos no YouTube.
+2. Clique na caixa no canto superior direito que diz `Transcrição & Resumo`.
+3. Clique no botão `Ver Resumo AI` (Isso copia o prompt automaticamente e abre a página do ChatGPT!)
+4. Use `Cmd + V` no Mac para colar.
+5. E veja a mágica acontecer!
 
-To use YouTube Summary with ChatGPT extension, follow these steps (or [watch this video](https://www.youtube.com/watch?v=pNxsdLif2cs)):
+## Observações
 
-1. Go to any YouTube videos.
-2. Click the small box on the right top that says `Transcript & Summary`.
-3. Click `View AI Summary` button (It automatically copies the prompt for you and opens the ChatGPT page!)
-4. Hit `Cmd + V` if you use Mac
-5. You'll see a magic!
+- O código busca manualmente as transcrições dos vídeos do YouTube. Mudanças na plataforma podem acontecer, e não é possível garantir que o método de transcrição permaneça funcional para sempre. Farei o possível para manter tudo atualizado!
 
-## Notes
+## Feedback & Suporte
 
-- According to OpenAI, ChatGPT is experiencing exceptionally high demand. They work on scaling their systems but I can't guarantee that ChatGPT keeps free and is open forever.
-- This code manually fetches the YouTube video transcripts, and the platform might change the system so I also cannot guarantee that the YouTube video transcript code works forever. I'll try my best to keep updated!
-
-## Feedback & Support
-
-If you have any questions or feedback about YouTube Summary with ChatGPT Extension, please reach out to me on [Twitter](https://twitter.com/kazuki_sf_). Also, I'm building Glasp, a social web annotation tool to build your own AI models to write, search, and summarize better. If you're interested, please check out [Glasp](https://glasp.co/ai-summary).
+Para dúvidas ou sugestões sobre a extensão "Resumo do YouTube com ChatGPT", entre em contato comigo pelo [Twitter](https://twitter.com/Borderless_DeFi).
